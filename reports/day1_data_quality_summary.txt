@@ -1,0 +1,7 @@
+Day 1 Data Quality Summary
+
+Successfully loaded all provided datasets using Pandas and reviewed their structure through shape, data types, and sample records. Initial data quality checks were performed to identify missing values and duplicate records.
+
+The fund_master dataset was explored to understand fund houses, categories, sub-categories, and risk categories. AMFI codes were validated against the nav_history dataset to ensure consistency between fund metadata and NAV records.
+
+Live NAV data for selected mutual fund schemes was fetched through the MFAPI API and stored in the raw data folder for further analysis.
