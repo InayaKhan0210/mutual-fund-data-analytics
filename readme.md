@@ -32,3 +32,10 @@ A data analytics project focused on mutual fund industry data, including NAV his
 * Plotly
 * SQL
 * Git & GitHub
+
+## Day 2 Progress
+
+- Data cleaning completed
+- SQLite database designed and populated
+- Analytical SQL queries written
+- Data dictionary prepared
