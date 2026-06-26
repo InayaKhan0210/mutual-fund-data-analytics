@@ -24,3 +24,21 @@ for file in processed_path.glob("*.csv"):
     print(f"Loaded table: {table_name} | Rows: {len(df)}")
 
 print("Database setup completed successfully.")
+
+print("\nVerifying row counts...\n")
+
+for file in processed_path.glob("*.csv"):
+    df = pd.read_csv(file)
+
+    table_name = file.stem.replace("_cleaned", "")
+
+    db_count = pd.read_sql(
+        f'SELECT COUNT(*) AS total FROM "{table_name}"',
+        engine
+    ).iloc[0]["total"]
+
+    csv_count = len(df)
+
+    status = "MATCH" if csv_count == db_count else "MISMATCH"
+
+    print(f"{table_name}: CSV={csv_count}, DB={db_count} --> {status}")
