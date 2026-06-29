@@ -170,3 +170,49 @@ Successfully completed the exploratory analysis of the mutual fund datasets by c
 
 
 ----------------------------------------------------------------------------------------------------------------------------
+
+# Day 4 – Fund Performance Analytics
+
+## Objective
+
+The objective of Day 4 was to evaluate the performance of mutual fund schemes using key financial metrics and build a comprehensive fund scorecard. The analysis focused on daily return calculations, risk-adjusted performance, benchmark comparison, and ranking funds based on multiple performance indicators.
+
+## Work Completed
+
+* Created a Performance Analytics notebook (`Performance_Analytics.ipynb`) using Jupyter Notebook.
+* Calculated daily returns for all mutual fund schemes using historical NAV data.
+* Analysed the distribution of daily returns to validate return patterns.
+* Explored key performance metrics, including 1-year, 3-year, and 5-year returns, Sharpe Ratio, Sortino Ratio, Alpha, Beta, Maximum Drawdown, and Expense Ratio.
+* Built a weighted Fund Scorecard by ranking schemes using return, risk-adjusted performance, expense ratio, and downside risk metrics.
+* Exported the complete Fund Scorecard for further analysis and reporting.
+* Extracted and exported Alpha and Beta values for all mutual fund schemes.
+* Created an Alpha vs Beta scatter plot to visualize fund performance relative to market risk.
+* Compared the top-performing mutual funds against the NIFTY100 benchmark using a benchmark comparison chart.
+* Documented observations and key insights for each analysis and visualization.
+
+## Tools & Libraries Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* SciPy
+* Jupyter Notebook
+
+## Files Created
+
+* `notebooks/Performance_Analytics.ipynb`
+* `outputs/fund_scorecard.csv`
+* `outputs/alpha_beta.csv`
+* `outputs/charts/`
+
+  * Daily Return Distribution
+  * Alpha vs Beta Scatter Plot
+  * Top 10 Fund Score
+  * Benchmark Comparison
+
+## Outcome
+
+Successfully completed the performance analytics phase by evaluating mutual fund schemes using multiple financial and risk-adjusted performance metrics. A comprehensive fund scorecard was developed to rank schemes based on return, risk, expense ratio, and downside protection. The generated visualizations and exported datasets provide meaningful insights into fund performance and serve as a foundation for the final project report and dashboard development.
+
+----------------------------------------------------------------------------------------------------------------------------
