@@ -255,15 +255,15 @@ Organized dashboard visuals with consistent formatting, titles, and layouts for 
 
 Successfully developed a four-page interactive Power BI dashboard that provides comprehensive insights into mutual fund industry performance, fund analytics, investor behavior, and SIP market trends. The dashboard enables users to explore data using interactive filters and visualizations, making it easier to analyse performance, compare schemes, and support data-driven decision-making. The completed dashboard serves as the final visualization component of the Mutual Fund Data Analytics project.
 
-## Dashboard Preview
+### Dashboard Preview
 
 ### Industry Overview
 
-![Industry Overview](outputs/dashboard_screenshots/mutual_fund_industry_overview.png)
+![Industry Overview](outputs/dashboard_screenshots/industry_overview_dashboard.png)
 
 ### Fund Performance Dashboard
 
-![Fund Performance Dashboard](outputs/dashboard_screenshots/mutual_fund_performance_dashboard.png)
+![Fund Performance Dashboard](outputs/dashboard_screenshots/fund_performance_dashboard.png)
 
 ### Investor Analytics Dashboard
 
@@ -271,6 +271,5 @@ Successfully developed a four-page interactive Power BI dashboard that provides 
 
 ### SIP & Market Trends Dashboard
 
-![SIP & Market Trends Dashboard](outputs/dashboard_screenshots/SIP_&_market_trends_dashboard.png)
-
+![SIP & Market Trends Dashboard](outputs/dashboard_screenshots/sip_market_trends_dashboard.png)
 ----------------------------------------------------------------------------------------------------------------------------
