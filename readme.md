@@ -216,3 +216,61 @@ The objective of Day 4 was to evaluate the performance of mutual fund schemes us
 Successfully completed the performance analytics phase by evaluating mutual fund schemes using multiple financial and risk-adjusted performance metrics. A comprehensive fund scorecard was developed to rank schemes based on return, risk, expense ratio, and downside protection. The generated visualizations and exported datasets provide meaningful insights into fund performance and serve as a foundation for the final project report and dashboard development.
 
 ----------------------------------------------------------------------------------------------------------------------------
+
+# Day 5 – Power BI Dashboard Development
+
+## Objective
+
+The objective of Day 5 was to build an interactive Power BI dashboard using the processed mutual fund datasets and present key insights through dynamic visualizations. The dashboard focused on industry performance, fund analysis, investor behavior, and SIP market trends to provide an interactive business intelligence solution.
+
+## Work Completed
+* Imported all cleaned mutual fund datasets into Power BI Desktop.
+* Established relationships between datasets using amfi_code and other relevant fields.
+* Designed a four-page interactive dashboard to analyze different aspects of the mutual fund industry.
+* Created KPI cards displaying Total AUM, Total SIP Inflows, Total Folios, and Total Schemes.
+* Built an Industry Overview dashboard featuring industry AUM trends and fund house-wise AUM distribution.
+* Developed a Fund Performance dashboard with Return vs Risk analysis, Fund Performance Scorecard, historical NAV trend,   and interactive slicers.
+* Created an Investor Analytics dashboard to analyse transaction amount by state, SIP amount across age groups, transaction type distribution, and KYC status.
+* Developed a SIP & Market Trends dashboard including Monthly SIP Inflow Trend, NIFTY 50 Market Trend, Category Inflow Heatmap, and Top 5 Categories by Net Inflow.
+* Added interactive slicers to enable filtering by fund house, category, plan, state, age group, and city tier.
+Organized dashboard visuals with consistent formatting, titles, and layouts for improved readability and user experience.
+
+## Tools & Technologies Used
+* Power BI Desktop
+* Power Query
+* DAX (Basic Measures)
+* CSV Data Sources
+* Interactive Visualizations
+* Filters & Slicers
+* Files Created
+* bluestock_mf_dashboard.pbix
+* Dashboard.pdf
+* outputs/dashboard_screenshots/
+* Industry Overview
+* Fund Performance
+* Investor Analytics
+* SIP & Market Trends
+
+## Outcome
+
+Successfully developed a four-page interactive Power BI dashboard that provides comprehensive insights into mutual fund industry performance, fund analytics, investor behavior, and SIP market trends. The dashboard enables users to explore data using interactive filters and visualizations, making it easier to analyse performance, compare schemes, and support data-driven decision-making. The completed dashboard serves as the final visualization component of the Mutual Fund Data Analytics project.
+
+## Dashboard Preview
+
+### Industry Overview
+
+![Industry Overview](outputs/dashboard_screenshots/mutual_fund_industry_overview.png)
+
+### Fund Performance Dashboard
+
+![Fund Performance Dashboard](outputs/dashboard_screenshots/mutual_fund_performance_dashboard.png)
+
+### Investor Analytics Dashboard
+
+![Investor Analytics Dashboard](outputs/dashboard_screenshots/investor_analytics_dashboard.png)
+
+### SIP & Market Trends Dashboard
+
+![SIP & Market Trends Dashboard](outputs/dashboard_screenshots/SIP_&_market_trends_dashboard.png)
+
+----------------------------------------------------------------------------------------------------------------------------
